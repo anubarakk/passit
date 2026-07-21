@@ -1,9 +1,8 @@
 ---
 name: passit-exam-pack
-description: "PassIt Exam Pack bundle. Buyer names their exam and topics or
+description: PassIt Exam Pack bundle. Buyer names their exam and topics or
   syllabus (files optional). Returns a complete reviewer + flashcards +
   "most likely on the exam" list + mock exam with an explained answer key.
-  Price: 1.0 USDT."
 ---
 
 # Exam Pack — Skill Instructions
