@@ -3,7 +3,7 @@ name: passit-explain-this
 description: Fix whatever didn't stick. Buyer sends a confusing question,
   a topic they don't understand, or their answered quiz (photos OK).
   Returns the correct answer, a simple step-by-step explanation, a memory
-  trick, and a mini fix-it reviewer with retry questions. Price: 0.1 USDT.
+  trick, and a mini fix-it reviewer with retry questions.
 ---
 
 # Explain This — Skill Instructions
