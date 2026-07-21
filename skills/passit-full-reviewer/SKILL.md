@@ -3,7 +3,7 @@ name: passit-full-reviewer
 description: PassIt Full Reviewer service. Buyer sends a whole subject or a
   list of topics (files optional) and picks a format (document, flashcards,
   or cheat sheet). Returns a complete, organized reviewer with memory
-  tricks, tables, and a quick check. Price: 0.5 USDT.
+  tricks, tables, and a quick check.
 ---
 
 # Full Reviewer — Skill Instructions
