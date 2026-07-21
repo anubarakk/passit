@@ -3,7 +3,7 @@ name: passit-mock-exam
 description: PassIt Mock Exam service. Buyer names a topic, subject, or exam
   and picks a test style (multiple choice, Q&A, true/false, or mixed).
   Returns a practice test ordered easy to hard with an answer key that
-  explains every answer simply. Price: 0.3 USDT.
+  explains every answer simply.
 ---
 
 # Mock Exam — Skill Instructions
