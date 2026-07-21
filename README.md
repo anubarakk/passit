@@ -57,16 +57,3 @@ Setup instructions live in [skills/README.md](skills/README.md).
 ## Rules & Disclaimer
 
 PassIt is a **study aid**. It is not for use during exams and does not guarantee results. See [docs/04-rules.md](docs/04-rules.md).
-
-## Brand (locked decisions)
-
-| Decision | Value |
-|----------|-------|
-| Product name | **PassIt** (one word) |
-| Marketplace | OKX.AI Agent Marketplace |
-| Category | Lifestyle |
-| Main input | A typed **topic** — files/notes/photos optional |
-| Tagline | "Type your topic. Get your reviewer. Pass your exam." |
-| Brand personality | The calm, clever friend who saves you before the exam |
-| Colors | Green (pass ✅) · dark navy (focus) · highlighter yellow (accent) |
-| Documentation status | **FINAL ✅** — docs, listings & skills complete; now in launch prep |
