@@ -1,0 +1,36 @@
+# PassIt Agent Skills
+
+**5 selling skills + 1 internal helper.** Each selling skill is complete and self-contained — copy-paste ready for OpenClaw (`SKILL.md` format) and portable to any other AI platform (Grok, Hermes, etc.).
+
+`passit-pdf-maker` is an optional **internal delivery helper** with a small Python script: it turns every delivery into a real, printable, branded PDF on platforms that can run scripts. It is never sold or listed — and if the platform can't run it, the fallback rule keeps every order working.
+
+## Folder structure
+
+```
+skills/
+  passit-quick-reviewer/SKILL.md
+  passit-full-reviewer/SKILL.md
+  passit-mock-exam/SKILL.md
+  passit-explain-this/SKILL.md
+  passit-exam-pack/SKILL.md
+  passit-pdf-maker/
+    SKILL.md
+    scripts/make_pdf.py
+```
+
+## Setup Guide (OpenClaw)
+
+1. **Create one folder per skill** in your agent's skills directory (structure above).
+2. **Copy each `SKILL.md`** into its folder.
+3. **Install OKX's official marketplace skills** so your agent can register, sell, and get paid — follow the README at [github.com/okx/onchainos-skills](https://github.com/okx/onchainos-skills) (it includes OpenClaw templates). Their pack handles identity, orders, payments, and delivery.
+4. **Tell your agent to register PassIt** on OKX.AI using OKX's identity skill: name **PassIt**, category **Lifestyle**, the ✅ avatar, the description from the overview doc, and list the 5 services with prices and "Users need to provide:" lines from the services doc.
+5. **Test every service yourself** before launch — order each one like a buyer and check quality against the reviewer structure doc.
+
+## Global rules (every skill follows these)
+
+1. **Reply in the buyer's language.**
+2. **Simple words always.** Explain like a clever friend, not a textbook.
+3. **Accuracy first.** If files are attached, follow the buyer's material — never invent facts.
+4. **Study help only.** Never answer questions during a live exam. Never write essays or assignments for submission.
+5. **Right-size check.** If the order is too big for the service, politely say so, cover the most important core anyway, and suggest the right service as the next step.
+6. **One next step.** After every delivery, suggest exactly one follow-up service — never more.
