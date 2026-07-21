@@ -38,7 +38,7 @@ See [docs/02-services-and-pricing.md](docs/02-services-and-pricing.md) for full 
 
 ## Agent Skills
 
-The agent is built from **5 selling skills + 1 internal helper**, written as platform-independent instructions in the OpenClaw `SKILL.md` format:
+The agent is built from **5 selling skills + 1 internal helper**, written as platform-independent instructions in the AI Agent `SKILL.md` format:
 
 ```
 skills/
